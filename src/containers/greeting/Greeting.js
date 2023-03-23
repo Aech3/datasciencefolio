@@ -22,20 +22,17 @@ export default function Greeting(props) {
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
                 I'm <mark data-entity="person">{greeting.sub}</mark>
               </h1>
-              <h1 className="greeting-typewriter" style={{color: theme.blue}}>
+              <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Data Scientist(NLP)")
+                      .typeString("Software Developer")
                       .pauseFor(200)
                       .deleteAll()
                       .typeString("Web Developer")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("UI/UX Designer")
-                      .pauseFor(200)
-                      .deleteAll()
-                      .typeString("IT Engineer")
+                      .typeString("Full-Stack Dev")
                       .pauseFor(200)
                       .start();
                   }}
@@ -47,14 +44,18 @@ export default function Greeting(props) {
               </h1>
               <span
                 className="greeting-text-span subTitle"
-                style={{ color: theme.text }}>
+                style={{ color: theme.text }}
+              >
                 <div className="entities">
-                  A <mark data-entity="noun">Data Science practitioner</mark>{" "}
-                  who thrives to{" "}
-                  <mark data-entity="verb">leverage Startups</mark> using
-                  AI-based solutions along with{" "}
-                  <mark data-entity="skill">Web Development</mark> and a blend
-                  of <mark data-entity="freelance">UI/UX Designing</mark>
+                  A <mark data-entity="noun">Software Developer</mark> who
+                  thrives to <mark data-entity="verb">leverage Startups</mark>{" "}
+                  and <mark data-entity="verb">expand his skillsets</mark>{" "}
+                  utilizing
+                  <mark data-entity="skills">work experience</mark> and an {""}{" "}
+                  <mark data-entity="skills"> open mindset</mark>
+                  and a blend of{" "}
+                  <mark data-entity="freelance">Web Development</mark> and {""}
+                  <mark data-entity="freelance">Full-Stack Development</mark>
                 </div>
               </span>
               <CompetitiveSites logos={competitiveSites.competitiveSites} />
