@@ -20,7 +20,8 @@ export default function Greeting(props) {
                 {greeting.title}
               </h1>
               <h1 className="greeting-sub" style={{ color: theme.grayText }}>
-                I'm <mark data-entity="person">{greeting.sub}</mark>
+                I'm
+                <mark data-entity="person">{greeting.sub}</mark>
               </h1>
               <h1 className="greeting-typewriter" style={{ color: theme.blue }}>
                 <Typewriter

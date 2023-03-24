@@ -16,7 +16,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Harshul Rao",
+  title: "Hey There!",
   sub: "Harshul Rao",
   logo_name: "Harshul Rao",
   resumeLink:
@@ -53,6 +53,7 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing products and software catering to client specifications and common use",
+        "⚡ Experience with Java, C, and C++ Development",
         "⚡ Front and Backend Experience with multiple companies",
         "⚡ Adaptable skillset and experience learning and mastering new frameworks.",
       ],
@@ -173,9 +174,9 @@ const projectcards = {
   list: [
     {
       title: "Raytracer",
-      img_path: "project-06.png",
+      img_path: "ray.gif",
       description:
-        "A full scale raytracer designed to generate rays in order to refine images and create reflections and shadows.",
+        "A full scale raytracer designed to generate rays in order to refine images and create reflections and shadows. Fully implemented KDTree in order to accelerate tracing speed.",
       tags: [
         {
           lang: "C++",
@@ -186,22 +187,19 @@ const projectcards = {
 
     {
       title: "Menger Sponge",
-      img_path: "voice.gif",
+      img_path: "menger.gif",
       description:
-        "A recursively generated Menger Sponge with interactive camera controls.",
+        "A recursively generated Menger Sponge with interactive camera controls, fully embeded in a web browser.",
       tags: [
         {
-          lang: "C++",
+          lang: "TypeScript",
           color: "#4257f5",
         },
       ],
-      link: "",
-      code: "",
-      linkcolor: "white",
     },
     {
       title: "TekCharts",
-      img_path: "neural.gif",
+      img_path: "tekchart.png",
       description:
         "An android app designed to store medical records and informational information to assist in patient transitions on the patient side.",
       tags: [
@@ -222,9 +220,9 @@ const projectcards = {
           color: "#ECB141",
         },
       ],
-      link: "",
-      code: "",
-      linkcolor: "white",
+      // link: "",
+      // code: "",
+      // linkcolor: "white",
     },
   ],
 };
@@ -247,18 +245,18 @@ const resumeleft = {
         subtitle: "Alois Software",
         date: "September 2021 - January 2022",
         content: [
-          "My role at Listnr included a lot of research work about Audio Encoders and Vocoders and Speech Synthesis in general.",
-          "Worked on some SOTA Inference TTS Models such as TacoTron2, FastSpeech2, and Wavenet.",
-          "Also had hands-on with real-time voice cloning algorithm.",
+          "I ensured proper connectivity between the Database and the User Interface, using a combination of PHP and JavaScript, with the Node.js implementation.",
+          "This was used alongside a MongoDB database to store post information for the forum that Alois bases itself around, as well as data on the users to better their experience.",
         ],
       },
       {
-        title: "Data Analyst Intern",
+        title: "Data Analysis Intern",
         subtitle: "Objectwin inc.",
         date: "May 2020 - July 2020",
         content: [
-          "Phase 1 included Data Cleaning & Data Annotation for object detection task",
-          "Used YOLO v5 for Fire Detection Project",
+          "Scraped data over Fortune 500 companies and analyzing it using a combination of python APIs and company strict tools, ",
+          "Collected and expanded upon the recruiting and interests of these companies, mostly in the differences between the domestic companies in comparison to those based internationally",
+          "Useful not only in developing my skills in working with data but also in finding important aspects of various companies and their inherent values.",
         ],
       },
     ],

@@ -59,7 +59,7 @@ class Projects extends Component {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <i
+                          {/* <i
                             className={`fas fa-external-link-alt`}
                             style={{
                               color: proj.linkcolor,
@@ -79,7 +79,7 @@ class Projects extends Component {
                               color: proj.linkcolor,
                               paddingLeft: "10px",
                             }}
-                          ></i>
+                          ></i> */}
                         </a>
                       </h2>
                     </Card.Title>
