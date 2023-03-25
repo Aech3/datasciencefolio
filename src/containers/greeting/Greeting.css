@@ -65,14 +65,7 @@
 }
 
 /* Media Query */
-@media only screen and (max-width: 640px) {
-  .greeting-text {
-    margin-left: 10px;
-  }
-  .greeting-text-span {
-    margin-left: 10px;
-  }
-}
+
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
@@ -107,7 +100,7 @@
   }
 
   .greeting-main {
-    display: block;
+    display: flex;
   }
 
   .portfolio-repo-btn-div {
@@ -117,7 +110,7 @@
     justify-content: center;
   }
   .button-greeting-div {
-    display: flex;
+    display: block;
     margin-top: 10px;
   }
 }
@@ -149,7 +142,7 @@
     margin-bottom: 0px;
   }
   .greeting-main {
-    display: block;
+    display: flex;
   }
 
   .button-greeting-div {
