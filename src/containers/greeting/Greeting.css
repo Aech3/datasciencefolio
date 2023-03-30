@@ -99,7 +99,7 @@
   }
 
   .greeting-main {
-    display: flex;
+    display: block;
   }
 
   .portfolio-repo-btn-div {
@@ -141,7 +141,7 @@
     margin-bottom: 0px;
   }
   .greeting-main {
-    display: flex;
+    display: block;
   }
 
   .button-greeting-div {

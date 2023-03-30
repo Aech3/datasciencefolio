@@ -10,7 +10,7 @@ const seo = {
   og: {
     title: "Harshul Rao",
     type: "website",
-    url: "TODO",
+    url: "harshulrao.me",
   },
 };
 
@@ -126,6 +126,14 @@ const skills = {
           style: {
             backgroundColor: "#000000",
             color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:T",
+          style: {
+            backgroundColor: "#000000",
+            color: "#5C8EAB",
           },
         },
         {
